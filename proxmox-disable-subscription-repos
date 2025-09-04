@@ -1,0 +1,9 @@
+nano /etc/apt/sources.list.d/pve-enterprise.list
+Comment out the line:
+   deb https://enterprise.proxmox.com/debian/pve bookworm pve-enterprise
+
+nano /etc/apt/sources.list.d/ceph.list
+Comment out the line: 
+  deb https://enterprise.proxmox.com/debian/pve bookworm pve-enterprise
+
+save,exit
